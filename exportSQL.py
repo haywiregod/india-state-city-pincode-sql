@@ -141,7 +141,7 @@ def main():
 
 
 if __name__ == '__main__':
-    start = int(time.time)
+    start = int(time.time())
     main()
     end = int(time.time())
-    print(f"Time Taken: {end-start}")
+    print(f"Time Taken: {end-start} Seconds")
